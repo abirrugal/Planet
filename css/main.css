@@ -12,6 +12,16 @@ html {
     background: #f8f8f8;
 }
 
+.logo-img {
+    max-height: 70px;
+    margin-left: 35%;
+    text-align: center;
+    padding: 5px 1px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+}
+
 /* Addressbar */
 #header .menu-container ul li a {
     font-family: "Lato", sans-serif;
@@ -27,6 +37,9 @@ html {
 }
 
 /* Navigation Menu */
+.nav-margin {
+    margin-top: 120px;
+}
 
 .top-navbar {
     position: relative;
@@ -110,8 +123,8 @@ html {
 
 
 #main-section .carousel-inner {
-    margin-top: 50px;
-    padding: 0;
+    margin-top: 40px;
+
 }
 
 #main-section .carousel-inner img {
@@ -119,6 +132,7 @@ html {
     background-repeat: no-repeat;
     padding: 40px;
     margin: 10px 10px;
+    max-height: 580px;
 }
 
 /* Services */
